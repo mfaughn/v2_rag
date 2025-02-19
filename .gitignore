@@ -1,0 +1,4 @@
+hl7_db/*
+hl7_docs/*
+__pycache__/
+venv/
