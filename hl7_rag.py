@@ -78,4 +78,4 @@ class HL7RAGPipeline:
         return retriever
         
     def query(self, retriever, query: str, k: int = 4):
-        return retriever.get_relevant_documents(query)
+        return retriever.invoke(query)
